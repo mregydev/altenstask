@@ -1,0 +1,71 @@
+[
+    {
+        "vin":"YS2R4X20005399401",
+        "regnr":"ABC123",
+        "owner":"Kalles Grustransporter AB ",
+        "status":1
+    },
+
+    {
+
+        "vin":"VLUR4X20009093588",
+        "regnr":"DEF456",
+        "owner":"Kalles Grustransporter AB 222 ",
+        "status":0
+    },
+    {
+        "vin":"VLUR4X20009048066",
+        "regnr":"GHI789",
+        "owner":"Kalles Grustransporter AB ",
+        "status":0
+    },
+    {
+        "vin":"YS2R4X20005388011",
+        "regnr":"JKL012",
+        "owner":"Johans Bulk AB ",
+        "status":0
+    },
+    {
+        "vin":"YS2R4X20005387949",
+        "regnr":"MNO345",
+        "owner":"Johans Bulk AB ",
+        "status":0
+    },
+    {
+        "vin":"VLUR4X20009048066",
+        "regnr":"PQR678",
+        "owner":"Haralds Värdetransporter AB",
+        "status":1
+    },
+    {
+        "vin":"YS2R4X20005387055",
+        "regnr":"STU901",
+        "owner":"Haralds Värdetransporter AB",
+        "status":0
+    },
+    {
+        "vin":"VLUR4X203499048066",
+        "regnr":"UQR678",
+        "owner":"Alaa Hamed AbdElhamed",
+        "status":1
+    },
+    {
+        "vin":"YS2R4X23925387055",
+        "regnr":"23892",
+        "owner":"Alaa Hamed AbdElhamed",
+        "status":0
+    },
+    {
+        "vin":"VLUR429839048066",
+        "regnr":"UQHEW8",
+        "owner":"Yehia Hamed AbdElhamed",
+        "status":1
+    },
+    {
+        "vin":"YS2R2313925387055",
+        "regnr":"JDWSKF",
+        "owner":"Yehia Hamed AbdElhamed",
+        "status":0
+    }
+
+]

@@ -1,0 +1,87 @@
+.carsGridArea
+{
+    position: relative;
+}
+
+.bodyContainer
+{
+    width:100%;
+    min-height: 300px;
+   
+}
+
+.loadingBg
+{
+    min-height: 300px;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: black;
+    opacity: .7;
+    z-index: 1000;
+}
+
+.noData
+{
+    text-align: center;
+    padding: 20px;
+}
+.loadingContainer
+{
+    z-index: 1100 !important;
+    min-height: 300px;
+     position: absolute;
+     width: 100%;
+     height:100%;
+     top:0px;
+     left:0px;
+     display: flex;
+     align-items: center;
+     justify-content: center !important;
+}
+
+
+.loading{
+    
+    color: white !important;
+    font-weight: bold !important;
+    position: static !important;
+   font-size: 20px;
+   animation: loadinganimation 1s infinite;
+}
+
+@keyframes loadinganimation {
+    0% {
+      opacity: 1;
+    }
+    30% {
+        opacity: .7;
+    }
+    50% {
+      opacity: .4;
+    }
+    
+    70% {
+        opacity: .7;
+      }
+
+    100%
+    {
+        opacity: .9;
+    }
+  }
+  
+
+
+@media only screen and (max-width: 959px) {
+       
+    .loadingContainer,.loadingBg
+{
+    
+    position: fixed;
+    
+}
+
+}

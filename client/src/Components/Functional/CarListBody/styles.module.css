@@ -1,0 +1,70 @@
+.bodyRow
+{
+ padding:20px 0px 20px 0px;
+ 
+}
+
+.bodyRowItem
+{
+
+text-align: left !important;
+width: 100% !important;
+
+}
+
+.itemLabel
+{
+    display: none
+}
+
+.online
+{
+    float: left;
+    font-weight: bold;
+    color: green !important;
+}
+.itemValue{
+    padding-left: 10px;
+}
+.offline
+{
+    float: left;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+
+.rowDivider
+{
+ margin-top:10px !important;
+}
+
+
+
+@media only screen and (max-width: 959px) {
+
+    .rowDivider
+    {
+        height: 2px !important;
+        background: #1976d2 !important;
+        margin-top:20px !important;
+    }
+    
+    .itemLabel
+    {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+
+    .itemValue
+    {
+        text-align:left;
+        margin-bottom: 20px !important;
+        display: block;
+        
+        
+    }
+
+}

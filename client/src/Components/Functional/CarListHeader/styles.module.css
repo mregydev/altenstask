@@ -1,0 +1,66 @@
+.headRowItem
+{
+    
+ background:#000000 !important;
+    color:white !important;
+    padding:15px 10px 15px 10px;
+text-align: left;
+position: relative;
+width: 100%;
+font-weight: bold;
+box-sizing: border-box ;
+
+
+}
+
+.headRow
+{
+    box-sizing: border-box ;
+}
+
+.alonefilterBtns
+{
+    display: none !important;
+}
+
+.filterIcon
+{
+position: absolute !important;
+top:5px;
+right:50px !important;
+background:whitesmoke !important;
+color: #000000 !important;
+}
+
+
+.filterIcon:hover
+{
+    opacity: .7;
+}
+
+
+.headRow{
+    margin-top:0px;
+
+}
+
+@media only screen and (max-width: 959px) {
+    .alonefilterBtns
+    {
+
+        display: block !important;
+        padding:10px;
+        background: whitesmoke;
+    }
+
+    .headRow {
+        display: none !important;
+      }
+
+      .filterBtn
+      {
+          margin-top:10px;
+          width:100% ;
+      }
+
+}

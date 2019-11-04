@@ -1,0 +1,89 @@
+
+.filterHeader
+{
+    padding:10px !important;
+}
+.filterBg
+{
+    min-height: 300px;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: black;
+    opacity: .7;
+    z-index: 1000;
+    
+}
+
+.filterContainer
+{
+    z-index: 1100 !important;
+   min-height: 300px;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.filterWndw
+{
+    background: whitesmoke !important;
+    font-weight: bold;
+    color: #303f9f !important;
+    font-weight: bold !important;
+    position: static !important;
+    width: 320px !important;
+}
+
+.filterHeader
+{
+    padding:10px !important;
+    background: black;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.multiPicker
+{
+    margin-top:10px !important;
+    background:white !important;
+}
+
+.multiPicker .MuiFormControl-root
+{
+    position: relative;
+    
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.closeBtn
+{
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 959px) {
+       
+    .filterContainer,.filterBg
+{
+    
+    position: fixed;
+    
+}
+
+.filterWndw
+{
+        width:80%;
+    left:0px;
+    
+}
+}

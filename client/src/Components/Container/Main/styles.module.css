@@ -1,0 +1,52 @@
+.githubLnk
+{
+    float:right;
+    position: absolute;
+    right:160px;
+    color: white;
+}
+
+.langSelect
+{
+    color: white !important;
+    position: absolute !important;
+    right:20px;
+    font-size: 20px !important;
+    
+}
+
+.langItem
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.icon
+{
+    color:white !important;
+}
+.App
+{
+
+    margin-top:10px;
+    min-height: 300px;
+    
+}
+
+
+.MuiInput-underline:after {
+    border-bottom: 2px solid white !important;
+    
+}
+
+.select::before {
+    border-color: white !important;   
+}
+
+.select::after {
+    border-color: white !important;
+    
+}

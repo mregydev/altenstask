@@ -1,0 +1,130 @@
+
+body{
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color:blue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.root {
+  flex-grow: 1,
+}
+
+.item
+{
+   padding:20px;
+   background: white;;
+}
+
+.itemContainer
+{
+  border-bottom:1px solid black;
+  
+}
+.header
+{
+  box-shadow:0px 1px 0px 1px black !important;
+  
+}
+
+.itemHeader{
+position: relative !important;
+
+}
+
+.ownerSpan
+{
+  margin-right:20px;
+}
+
+.filterStatus
+{
+  position: absolute !important;
+  right: 10px !important;
+  top: 5px !important;
+}
+
+.filterWndw
+{
+  position: absolute !important;
+  width: 120px !important;
+  right:10px !important; 
+}
+.filterBtn
+{
+  width:100%;
+}
+
+.filterSmall
+{
+  display: none !important;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+  .filterSmall
+  {
+    display: block
+  }
+}
+.btn
+{
+  width: 100%;
+}
+.filterCustomersWndw
+{
+  position: absolute !important;
+  width: 250px;
+  right:10px;
+  
+  background: whitesmoke !important;
+}
+.owner
+{
+  text-align: left;
+}
+
+.online
+{
+  color: lightgreen;
+}
+
+.online::after
+{
+  content:'online'
+}
+
+.offline
+{
+  color:gray;
+}
+.offline::after
+{
+  content:'offline'
+}
+
+.MuiTable-root
+{
+  overflow: hidden !important;
+}

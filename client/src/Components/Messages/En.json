@@ -1,0 +1,21 @@
+{
+    "Veichle No" : "VIN",
+    "Reg nr" : "Reg.nr",
+    "En":"English",
+    "Sw":"Swedish",
+    "SelectLanguage":"Select language",
+    "Owner":"Owner",
+    "Status":"Status",
+    "Online":"Online",
+    "Offline":"Offline",
+    "RowPerPage":"Rows Per Page",
+    "FilterByOwnerName":"Filter by owner name",
+    "FilterByStatus":"Filter by status",
+    "InsertNamesToFilter":"Insert names to filter with",
+    "SelectStatusToFilter":"Select status to filter with",
+    "close":"close",
+    "NoData":"No data is found",
+    "loading":"Loadin data...",
+    "propblemInConnection":"Problem in connection",
+    "NetworkError":"Network error"
+}

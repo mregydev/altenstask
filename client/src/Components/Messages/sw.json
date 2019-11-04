@@ -1,0 +1,22 @@
+{
+    "Veichle No" : "VIN",
+    "Reg nr" : "Registreringsnummer",
+    "En":"engelsk",
+    "Sw":"svenska",
+    "SelectLanguage":"Välj språk",
+    "Owner":"Ägare",
+    "Status":"Status",
+    "Online":"Uppkopplad",
+    "Offline":"Off-line",
+    "RowPerPage":"Rad per sida",
+    "FilterByOwnerName":"Filtrera efter ägarnamn",
+    "FilterByStatus":"Filtrera efter status",
+    "InsertNamesToFilter":"Infoga namn för att filtrera med",
+    "SelectStatusToFilter":"Välj status att filtrera med",
+    "close":"stänga",
+    "NoData":"Inga data hittades",
+    "loading":"läser in...",
+    "propblemInConnection":"problem i anslutning",
+    "NetworkError":"nätverksfel problem"
+
+}
